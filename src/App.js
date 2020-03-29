@@ -69,6 +69,7 @@ class App extends Component {
                   </Fragment>
                 )}
               ></Route>
+              <Route exact path='/about' component={About} />
             </Switch>
           </div>
         </div>
